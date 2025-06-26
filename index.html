@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumaya.Threads</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script&family=Montserrat&display=swap" rel="stylesheet">
+  <style>
+    body {
+      animation: fadeIn 1s ease-in;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      font-family: 'Times New Roman', serif;
+      text-align: center;
+      background-color: #fff;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    nav {
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #d2788a;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #7d4f50;
+    }
+
+    .logo {
+      width: 25px;
+      margin-top: 10%;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-family: 'Clicker Script', cursive;
+      font-size: 3em;
+      color: #d2788a;
+      margin-top: 100px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2em;
+      color: #7d4f50;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+      color: #c26688;
+    }
+
+    .footer-img {
+      margin-top: 50px;
+      opacity: 0.9;
+      width: 250px;
+    }
+
+    .contact {
+      margin-top: 70px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <img src="Logo.png" alt="Sumaya Threads Logo" width="200">
+
+  <h1>Welcome to Sumaya Threads!</h1>
+  <p>Handcrafted project specializing in personalized designs made from thread, yarn, foam boards, and other materials that pertain to all communities and occasions.</p>
+
+  <img src="Nameyarnslogan.png" alt="sumaya.threads - Crafting Art from the Heart" class="footer-img">
+
+  <p>© 2023 Sumaya Threads. All rights reserved.</p>
+
+</body>
+</html>
